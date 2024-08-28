@@ -1,0 +1,29 @@
+{
+  "name": "@myaccount/e2e",
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "test": "cypress run --config baseUrl=http://localhost:3000 --spec 'test/fake/**/*'",
+    "test:open": "cypress open --config baseUrl=http://localhost:3000",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
+  },
+  "dependencies": {
+    "cypress": "^13.14.0",
+    "cypress-xpath": "^2.0.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.7",
+    "typescript": "^5.5.2",
+    "vite": "^4.5.2"
+  }
+}
