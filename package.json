@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "type": "module",
   "scripts": {
+    "start": "@echo estou aqui",
     "test": "cypress run --config baseUrl=http://localhost:3000 --spec 'test/fake/**/*'",
     "test:open": "cypress open --config baseUrl=http://localhost:3000"
   },
